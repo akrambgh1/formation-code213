@@ -1,0 +1,37 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3ea4c1; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2e7f96; 
+    border-radius: 10px;
+  }
+
+.container img{
+    width: 50%;
+    height: 50%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+
+}
+form label{
+    position: relative;
+    left: 0;
+}
